@@ -4,19 +4,38 @@
     <meta charset="utf-8">
     <title>My Contact Details</title>
   </head>
+
+  <style media="screen">
+
+      body{
+        background-color: #EAF6F6;
+      }
+
+      hr{
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        height: 0px;
+        width: 5%;
+      }
+
+  </style>
+
+
   <body>
     <h4>You can reach out to me via all these platforms.</h4>
 
       <p>Email = daniyalkabir03@gmail.com</p>
       <p>Phone = +91 7006348296</p>
 <hr>
-<form action="mailto:daniyalkabir03@gmail.com">
+<form action="mailto:daniyalkabir03@gmail.com" enctype="text/plain">
   <label> Your Name </label>
-  <input type="text" name="" id=""><br>
+  <input type="text" name="yourName" id=""><br>
   <lab> Your Email: </lab>
-  <input type="email" name="" id=""><br>
+  <input type="email" name="yourEmail" id=""><br>
   <label> Your message: </label>
-  <textarea name="name" rows="11" cols="30"></textarea><br>
+  <textarea name="message" rows="11" cols="30"></textarea><br>
   <input type="submit" name="" value="">
 </form>
 
